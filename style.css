@@ -1,0 +1,334 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  width: 1280px;
+  height: 420px;
+  background: #e5e5e5;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.input-texto {
+  width: 500px;
+  height: 100px;
+  background: #e5e5e5;
+  border-radius: 24px;
+  border: none;
+  padding: 24px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0a3871;
+  resize: none;
+  outline: none;
+}
+
+.input-texto::-webkit-scrollbar {
+  display: none;
+}
+
+.input-texto::placeholder {
+  color: #0a3871;
+}
+
+.titulo {
+  color: #0a3871;
+  font-size: 90px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.imagen-alert {
+  width: 205px;
+  height: 18px;
+  margin-top: 450px;
+  margin-left: -525px;
+  position: absolute;
+}
+
+.alineBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 10px;
+  margin-top: 340px;
+}
+
+.btn-blue,
+.btn-white {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  justify-content: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: transform 0.3s ease;
+}
+
+.btn-blue {
+  background: #0a3871;
+  border-radius: 24px;
+  color: #ffffff;
+}
+
+.btn-white {
+  box-sizing: border-box;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+}
+
+.btn-blue:hover,
+.btn-white:hover {
+  transform: scale(0.95);
+  background: #ffffff;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+}
+
+.box2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: -80px;
+  gap: 8px;
+  background-color: #ffffff;
+  width: 350px;
+  height: 690px;
+  border-radius: 32px;
+  margin-left: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 10px 10px 65px -9px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 65px -9px rgba(0, 0, 0, 0.29);
+  box-shadow: 10px 10px 65px -9px rgba(0, 0, 0, 0.29);
+  margin-left: 200px;
+}
+
+.text-input-salida {
+  width: 300px;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 24px;
+  border: none;
+  padding: 24px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0a3871;
+  resize: none;
+  outline: none;
+}
+
+.text-input-salida::-webkit-scrollbar {
+  display: none;
+}
+
+.text-input-salida::placeholder {
+  color: #0a3871;
+}
+
+.btn-copy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 220px;
+  padding: 24px;
+  width: 328px;
+  height: 67px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 24px;
+  color: #0a3871;
+  justify-content: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: transform 0.3s ease;
+}
+
+.btn-copy:hover {
+  background: #0a3871;
+  color: #ffffff;
+  border: 1px solid #0a3871;
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background: #e5e5e5;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .input-texto {
+    width: 90%;
+    height: 100px;
+    background: #e5e5e5;
+    border-radius: 24px;
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0a3871;
+    resize: none;
+    outline: none;
+  }
+
+  .input-texto::-webkit-scrollbar {
+    display: none;
+  }
+
+  .input-texto::placeholder {
+    color: #0a3871;
+  }
+
+  .imagen-alert {
+    width: 205px;
+    height: 18px;
+    margin-top: 100px;
+    margin-left: -370px;
+    position: absolute;
+  }
+
+  .titulo {
+    color: #0a3871;
+    font-size: 90px;
+    font-weight: 700;
+    margin-left: -10px;
+  }
+
+  .alineBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    margin-top: -30px;
+  }
+
+  .btn-blue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    margin-left: -15px;
+    width: 100%;
+    height: 67px;
+    background: #0a3871;
+    border-radius: 24px;
+    color: #ffffff;
+    justify-content: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .btn-white {
+    box-sizing: border-box;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 100%;
+    height: 67px;
+    justify-content: center;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .btn-white:hover {
+    background: #0a3871;
+    color: #ffffff;
+    border: 1px solid #0a3871;
+  }
+
+  .btn-blue:hover {
+    background: #ffffff;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+  }
+
+  .box2 {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #ffffff;
+    width: 90%;
+    height: 300px;
+    border-radius: 32px;
+    margin-left: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .text-input-salida {
+    width: 80%;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 24px;
+    border: none;
+    font-size: 24px;
+    color: #0a3871;
+    resize: none;
+    outline: none;
+    padding: 10px; /* Ajusta el valor del padding según tus necesidades */
+    box-sizing: border-box; /* Añade esta propiedad */
+    margin-bottom: 20px; /* Añade margen inferior para separar del botón */
+  }
+
+  .btn-copy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+    width: 80%;
+    height: 67px;
+    background: #ffffff;
+    border-radius: 24px;
+    color: #0a3871;
+    justify-content: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+}
